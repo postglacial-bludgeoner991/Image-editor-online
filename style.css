@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+
+    min-height: 100vh;
+
+    background:
+        radial-gradient(circle at top left, #1e3a8a, #020617 40%),
+        radial-gradient(circle at bottom right, #6d28d9, #020617 35%);
+
+    color: white;
+
+    padding: 30px;
+}
+
+
+/* =======================
+   MAIN CONTAINER
+======================= */
+
+.container {
+
+    display: flex;
+
+    gap: 30px;
+
+    align-items: flex-start;
+}
+
+
+/* =======================
+   SIDEBAR
+======================= */
+
+.sidebar {
+
+    width: 360px;
+
+    padding: 28px;
+
+    border-radius: 28px;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+
+    height: fit-content;
+}
+
+
+/* =======================
+   LOGO
+======================= */
+
+.logo {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    margin-bottom: 30px;
+}
+
+.logo-box {
+
+    width: 52px;
+
+    height: 52px;
+
+    border-radius: 16px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-weight: 700;
+
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+.logo h1 {
+
+    font-size: 34px;
+
+    font-weight: 600;
+}
+
+
+/* =======================
+   GLOBAL BUTTON STYLE
+======================= */
+
+button {
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+
+    font-family: 'Poppins', sans-serif;
+
+    transition: all 0.3s ease;
+}
+
+
+/* =======================
+   UPLOAD BUTTON
+======================= */
+
+.upload-btn {
+
+    display: inline-block;
+
+    padding: 14px 22px;
+
+    border-radius: 14px;
+
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+
+    color: white;
+
+    font-weight: 500;
+
+    cursor: pointer;
+
+    margin-bottom: 25px;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3);
+}
+
+.upload-btn:hover {
+
+    transform: translateY(-3px) scale(1.03);
+
+    box-shadow: 0 15px 30px rgba(124, 58, 237, 0.5);
+}
+
+
+/* =======================
+   FILTERS
+======================= */
+
+.filters {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 22px;
+}
+
+.filter {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.filter label {
+
+    font-size: 16px;
+
+    font-weight: 500;
+}
+
+.filter span {
+
+    font-size: 14px;
+
+    opacity: 0.8;
+}
+
+
+/* =======================
+   RANGE SLIDER
+======================= */
+
+input[type="range"] {
+
+    width: 100%;
+
+    height: 6px;
+
+    border-radius: 10px;
+
+    appearance: none;
+
+    background: rgba(255, 255, 255, 0.2);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+
+    appearance: none;
+
+    width: 18px;
+
+    height: 18px;
+
+    border-radius: 50%;
+
+    background: #3b82f6;
+
+    cursor: pointer;
+
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.7);
+}
+
+
+/* =======================
+   ACTION BUTTONS
+======================= */
+
+.buttons {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 14px;
+
+    margin-top: 25px;
+}
+
+.buttons button {
+
+    width: 100%;
+
+    padding: 12px 18px;
+
+    border-radius: 12px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    letter-spacing: 0.3px;
+}
+
+
+/* =======================
+   BUTTON HOVER
+======================= */
+
+.buttons button:hover {
+
+    transform: translateY(-4px);
+
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+
+    box-shadow: 0 12px 25px rgba(37, 99, 235, 0.35);
+}
+
+
+/* =======================
+   PRESET FILTERS
+======================= */
+
+.preset-filters {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+
+    margin-top: 25px;
+}
+
+.preset-btn {
+
+    padding: 12px 20px;
+
+    border-radius: 14px;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    backdrop-filter: blur(10px);
+
+    font-weight: 500;
+
+    transition: 0.3s ease;
+}
+
+
+/* =======================
+   PRESET HOVER
+======================= */
+
+.preset-btn:hover {
+
+    transform: scale(1.06);
+
+    background: linear-gradient(135deg, #06b6d4, #3b82f6);
+
+    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.4);
+}
+
+
+/* =======================
+   ACTIVE EFFECT
+======================= */
+
+button:active {
+
+    transform: scale(0.95);
+}
+
+
+/* =======================
+   PREVIEW AREA
+======================= */
+
+.preview-area {
+
+    flex: 1;
+
+    min-height: 80vh;
+
+    border-radius: 28px;
+
+    border: 2px dashed rgba(255, 255, 255, 0.08);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+
+    position: relative;
+
+    background: rgba(255, 255, 255, 0.03);
+
+    backdrop-filter: blur(12px);
+
+    transition: 0.3s ease;
+}
+
+
+/* =======================
+   DRAG ACTIVE
+======================= */
+
+.drag-active {
+
+    border: 2px dashed #00ffcc !important;
+
+    background: rgba(255, 255, 255, 0.08);
+}
+
+
+/* =======================
+   EMPTY TEXT
+======================= */
+
+.empty-text {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    font-size: 22px;
+
+    opacity: 0.7;
+}
+
+
+/* =======================
+   PREVIEW IMAGE
+======================= */
+
+.preview-area img {
+
+    max-width: 100%;
+
+    max-height: 80vh;
+
+    border-radius: 18px;
+
+    transition: 0.4s ease;
+
+    display: none;
+}
+
+.preview-area img:hover {
+
+    transform: scale(1.02);
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+
+/* =======================
+   RESPONSIVE
+======================= */
+
+@media(max-width:768px) {
+
+    .container {
+
+        flex-direction: column;
+    }
+
+    .sidebar {
+
+        width: 100%;
+    }
+
+    .preview-area {
+
+        min-height: 60vh;
+    }
+
+    .logo h1 {
+
+        font-size: 28px;
+    }
+}

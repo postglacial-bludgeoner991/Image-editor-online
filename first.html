@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Image Editor</title>
+
+    <!-- GOOGLE FONT -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- =======================
+             SIDEBAR
+        ======================== -->
+
+        <div class="sidebar">
+
+            <!-- LOGO -->
+
+            <div class="logo">
+
+                <div class="logo-box">
+                    I
+                </div>
+
+                <h1>Image Editor</h1>
+
+            </div>
+
+
+            <!-- UPLOAD BUTTON -->
+
+            <label for="fileInput" class="upload-btn">
+                Upload Image
+            </label>
+
+            <input type="file" id="fileInput" hidden>
+
+
+            <!-- =======================
+                 FILTERS
+            ======================== -->
+
+            <div class="filters">
+
+                <!-- BRIGHTNESS -->
+
+                <div class="filter">
+
+                    <label>
+                        Brightness
+                    </label>
+
+                    <span id="brightnessValue">
+                        100%
+                    </span>
+
+                    <input
+                        type="range"
+                        id="brightness"
+                        min="0"
+                        max="200"
+                        value="100"
+                    >
+
+                </div>
+
+
+                <!-- CONTRAST -->
+
+                <div class="filter">
+
+                    <label>
+                        Contrast
+                    </label>
+
+                    <span id="contrastValue">
+                        100%
+                    </span>
+
+                    <input
+                        type="range"
+                        id="contrast"
+                        min="0"
+                        max="200"
+                        value="100"
+                    >
+
+                </div>
+
+
+                <!-- SATURATION -->
+
+                <div class="filter">
+
+                    <label>
+                        Saturation
+                    </label>
+
+                    <span id="saturationValue">
+                        100%
+                    </span>
+
+                    <input
+                        type="range"
+                        id="saturation"
+                        min="0"
+                        max="200"
+                        value="100"
+                    >
+
+                </div>
+
+
+                <!-- BLUR -->
+
+                <div class="filter">
+
+                    <label>
+                        Blur
+                    </label>
+
+                    <span id="blurValue">
+                        0px
+                    </span>
+
+                    <input
+                        type="range"
+                        id="blur"
+                        min="0"
+                        max="10"
+                        value="0"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- =======================
+                 ACTION BUTTONS
+            ======================== -->
+
+            <div class="buttons">
+
+                <button id="rotateLeft">
+                    Rotate Left
+                </button>
+
+                <button id="rotateRight">
+                    Rotate Right
+                </button>
+
+                <button id="flipHorizontal">
+                    Flip Horizontal
+                </button>
+
+                <button id="resetBtn">
+                    Reset
+                </button>
+
+                <button id="downloadBtn">
+                    Download
+                </button>
+
+                <button id="compareBtn">
+                    Compare
+                </button>
+
+            </div>
+
+
+            <!-- =======================
+                 PRESET FILTERS
+            ======================== -->
+
+            <div class="preset-filters">
+
+                <button class="preset-btn" data-filter="normal">
+                    Normal
+                </button>
+
+                <button class="preset-btn" data-filter="vintage">
+                    Vintage
+                </button>
+
+                <button class="preset-btn" data-filter="cool">
+                    Cool
+                </button>
+
+                <button class="preset-btn" data-filter="bw">
+                    B&W
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- =======================
+             PREVIEW AREA
+        ======================== -->
+
+        <div class="preview-area" id="dropArea">
+
+            <p class="empty-text">
+                Upload an image to start editing
+            </p>
+
+            <img
+                id="previewImage"
+                src=""
+                alt="Preview Image"
+            >
+
+        </div>
+
+    </div>
+
+    <!-- JS -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
